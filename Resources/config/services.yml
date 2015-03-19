@@ -1,0 +1,4 @@
+services:
+  pm_yubikey_otp.validation:
+    class: PM\Bundle\YubikeyOtpBundle\Services\ValidationService
+    arguments: [ "%pm_yubikey_otp.config%"]
