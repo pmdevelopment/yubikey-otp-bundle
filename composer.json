@@ -1,0 +1,23 @@
+{
+  "name": "pmdevelopment/yubikey-otp-bundle",
+  "description": "Validate Yubikey OTP in Symfony2",
+  "require": {
+    "guzzlehttp/guzzle": "5.2.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sven Joder",
+      "email": "sj@pmdevelopment.de",
+      "homepage": "http://www.pmdevelopment.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "autoload": {
+    "psr-0": {"PM\\Bundle\\YubikeyOtpBundle": ""}
+  },
+  "target-dir": "PM/Bundle/YubikeyOtpBundle"
+}
