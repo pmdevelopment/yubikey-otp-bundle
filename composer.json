@@ -1,10 +1,13 @@
 {
   "name": "pmdevelopment/yubikey-otp-bundle",
   "description": "Validate Yubikey OTP in Symfony2",
+<<<<<<< HEAD
   "require": {
     "php": ">=5.3.2",
     "guzzlehttp/guzzle": "5.2.*"
   },
+=======
+>>>>>>> f052308810d448c8b0d6f0c018c11f9ac52d1906
   "license": "MIT",
   "authors": [
     {
@@ -14,6 +17,13 @@
       "role": "Developer"
     }
   ],
+<<<<<<< HEAD
+=======
+  "require": {
+    "php": ">=5.3.2",
+    "guzzlehttp/guzzle": "5.2.*"
+  },
+>>>>>>> f052308810d448c8b0d6f0c018c11f9ac52d1906
   "autoload": {
     "psr-0": {"PM\\Bundle\\YubikeyOtpBundle": ""}
   },
