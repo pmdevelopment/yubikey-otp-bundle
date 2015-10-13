@@ -20,7 +20,7 @@ Add to config.yml
 ```yml
     pm_yubikey_otp:
       server:
-        host: https://api2.yubico.com/wsapi/2.0/
+        uri: https://api2.yubico.com/wsapi/2.0/
         client_id: YourClientId
         client_secret: YourApiKey
 ```
