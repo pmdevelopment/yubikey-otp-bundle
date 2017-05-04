@@ -1,4 +1,7 @@
+parameters:
+    pm_yubikey_otp.validation.class: PM\Bundle\YubikeyOtpBundle\Services\ValidationService
+
 services:
-  pm_yubikey_otp.validation:
-    class: PM\Bundle\YubikeyOtpBundle\Services\ValidationService
-    arguments: [ "%pm_yubikey_otp.config%"]
+    pm_yubikey_otp.validation:
+        class: '%pm_yubikey_otp.validation.class%'
+        arguments: [ "%pm_yubikey_otp.config%"]
