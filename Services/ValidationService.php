@@ -124,7 +124,12 @@ class ValidationService
         /**
          * Create Guzzle Request
          */
-        $guzzle = new Client(['base_url' => $this->config['server']['uri'], 'base_uri' => $this->config['server']['uri']]);
+        $guzzle = new Client(
+            [
+                'base_url' => $this->config['server']['uri'],
+                'base_uri' => $this->config['server']['uri'],
+            ]
+        );
 
         $response = $guzzle->get($this->getVerifyUrl($oneTimePassword));
         $responseBody = $response->getBody()->getContents();
